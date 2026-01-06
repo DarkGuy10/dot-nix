@@ -1,17 +1,11 @@
-{ pkgs, ... }:
+{ ... }:
 {
-  home.packages = with pkgs; [
-    gh
-    lazygit
-  ];
-
-  programs.git = {
+  programs.git.enable = true;
+  programs.gh = {
     enable = true;
-    extraConfig = {
-      credential = {
-        credentialStore = "secretservice";
-        helper = "${pkgs.git-credential-manager}/bin/git-credential-manager";
-      };
+    gitCredentialHelper = {
+      enable = true;
     };
   };
+  programs.lazygit.enable = true;
 }
