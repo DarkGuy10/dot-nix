@@ -19,7 +19,7 @@
   home.shellAliases = {
     sysup = "sudo nixos-rebuild switch --flake /etc/nixos/#eva-04";
     systest = "sudo nixos-rebuild test";
-    sysconf = "sudo nvim /etc/nixos";
+    sysconf = "nvim ~/dot-nix/";
     sysclean = "nix-collect-garbage";
     cat = "bat";
     grep = "rg";

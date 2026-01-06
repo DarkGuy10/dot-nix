@@ -1,8 +1,8 @@
 { ... }:
 {
   imports = [
-    ../../modules/system.nix
-    ../../modules/kde.nix
+    # Include system modules
+    ../../modules
 
     # Include the results of the hardware scan.
     ./hardware-configuration.nix

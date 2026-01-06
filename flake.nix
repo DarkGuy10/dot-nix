@@ -16,7 +16,11 @@
         eva-04 =
           let
             username = "cerealsoup";
-            specialArgs = { inherit username; };
+            hostname = "eva-04";
+            specialArgs = {
+              inherit username;
+              inherit hostname;
+            };
           in
           nixpkgs.lib.nixosSystem {
             inherit specialArgs;
