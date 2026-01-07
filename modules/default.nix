@@ -8,5 +8,7 @@
     ./i18n.nix
     ./users.nix
     ./hyprland.nix
+    ./security.nix
+    ./sddm.nix
   ];
 }
