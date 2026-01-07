@@ -1,10 +1,7 @@
 { ... }:
 {
   imports = [
-    ../../home/core.nix
-    ../../home/shell
-    ../../home/terminal
-    ../../home/programs
+    ../../home
   ];
 
   programs.git = {
