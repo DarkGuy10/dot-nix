@@ -12,8 +12,8 @@
     git
     neovim
     lua
-    # ntfs support
-    ntfs3g
+    ntfs3g # ntfs support
+    seahorse # gui keyring manager
   ];
 
   # Set default editor to nvim
