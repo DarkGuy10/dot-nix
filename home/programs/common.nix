@@ -18,6 +18,7 @@
     # networking tools
     socat # replacement of openbsd-netcat
     nmap # A utility for network discovery and security auditing
+    wireshark # Packet capture tool
 
     # misc
     cowsay
